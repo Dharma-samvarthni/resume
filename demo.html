@@ -1,40 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Dharmasamvarthni D</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+    }
+    @media print {
+      body {
+        background-color: #fff;
+      }
+      .resume-container {
+        box-shadow: none;
+        margin: 0;
+        max-width: 100%;
+        border: none;
+      }
+    }
+  </style>
 </head>
-<body style="background-image: url('background.jpeg');">
-    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">DHARMASAMVARTHNI D</h1>
-    <h3>BTech Information Technology</h3>
-    <ul>
-        <li>Email:dharmasamvarthni1726@gmail.com</li>
-        <li>Phone Number:7397150488</li>
-        <li>Linkedin Profile:<a href="www.linkedin.com/in/dharmasamvarthni-d-548776332">Dharmasamvarthni.linkedin</a></li>
-        <li>Github profile:<a href="https://github.com/Dharma-samvarthni">Dharmasamvarthni.github</a></li>
-    </ul>
-    <ul>
-        <li><h3 >Schooling:</h3></li>
-        <li>10th:
-            <a href="https://www.justdial.com/Thanjavur/Maxwell-Matriculation-Higher-Secondary-School-Near-Dhinathanthai-Office-Maharnonbu-Chavadi/9999P4362-4362-1235799177V5L1Q6-DC_BZDET">Maxwell Matriculation Higher Secondary School</a>
-            <p>Thanjavur<br>Percentage:80%</p>
-        </li>
-        <li>12th:
-            <a href="https://www.justdial.com/Thanjavur/Maxwell-Matriculation-Higher-Secondary-School-Near-Dhinathanthai-Office-Maharnonbu-Chavadi/9999P4362-4362-1235799177V5L1Q6-DC_BZDET">Maxwell Matriculation Higher Secondary School</a>
-            <p>Thanjavur<br>Percentage:80%</p>
-        </li>
-        <li>
-            <h3>College:</h3>
-            <li><a href="https://www.bitsathy.ac.in/">Bannariamman Institute of Technology</a></li>
-            <p>Sathyamangalam Eroad<br>Cgpa:7.8</p>
-        </li>
-    </ul>
-    <ul>
-        <h2>Skills</h2>
-        <li>Java programing</li>
-        <li>C Programing</li>
-        <li>Mysql</li>
-    </ul>
+<body class="bg-gray-100 flex items-center justify-center p-4 sm:p-8">
+
+  <main class="resume-container w-full max-w-4xl bg-white p-8 sm:p-12 shadow-lg border border-gray-200">
+
+    <header class="text-center mb-10">
+      <h1 class="text-4xl sm:text-5xl font-bold tracking-wider text-gray-800 uppercase">
+        DHARMASAMVARTHNI D
+      </h1>
+      <div class="mt-4 text-sm text-gray-600 flex justify-center items-center flex-wrap gap-x-6 gap-y-2">
+        <span>Thanjavur, Tamil Nadu</span>
+        <span>&bull;</span>
+        <span>7397150488</span>
+        <span>&bull;</span>
+        <a href="mailto:dharmasamvarthni1729@gmail.com" class="text-blue-600 hover:underline">dharmasamvarthni1729@gmail.com</a>
+        <span>&bull;</span>
+        <a href="https://www.linkedin.com/in/dharmasamvarthni-d-548776332" class="text-blue-600 hover:underline">linkedin.com/in/dharmasamvarthni-d-548776332</a>
+      </div>
+    </header>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-700 border-b-2 border-gray-300 pb-2 mb-4 uppercase tracking-widest">
+        Career Objective
+      </h2>
+      <p class="text-gray-700 leading-relaxed">
+        Enthusiastic and dedicated B.Tech Information Technology student with a strong foundation in Java, web development, and database management. Eager to apply technical knowledge and problem-solving skills in a dynamic environment. A quick learner with a passion for building real-world solutions and contributing to team success.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-700 border-b-2 border-gray-300 pb-2 mb-4 uppercase tracking-widest">
+        Education
+      </h2>
+      <div class="mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">B.Tech in Information Technology</h3>
+        <p class="text-md text-gray-700 italic">Bannari Amman Institute of Technology, Sathyamangalam</p>
+        <p class="text-sm text-gray-600">2023 – 2027 (Expected) | CGPA: 7.8</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">12th Grade – State Board</h3>
+        <p class="text-md text-gray-700 italic">Maxwell Matriculation Higher Secondary School, Thanjavur</p>
+        <p class="text-sm text-gray-600">Year of Passing: 2023 | Percentage: 80%</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold text-gray-800">10th Grade – State Board</h3>
+        <p class="text-md text-gray-700 italic">Maxwell Matriculation Higher Secondary School, Thanjavur</p>
+        <p class="text-sm text-gray-600">Year of Passing: 2021 | Percentage: 80%</p>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-700 border-b-2 border-gray-300 pb-2 mb-4 uppercase tracking-widest">
+        Projects
+      </h2>
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-gray-800">SaveABeat – Online Blood Donation System(working on)</h3>
+        <p class="text-sm italic text-gray-600 mb-2">Tech Stack: MongoDB, Node.js, Express.js, React.js, Tailwind CSS</p>
+        <p class="text-gray-700 leading-relaxed">
+          Developed a full-stack web application to connect blood donors and recipients with geo-fencing alerts and secure user verification. 
+          Focused on backend development using <strong>Node.js</strong> and <strong>MongoDB</strong>, implementing <strong>RESTful APIs</strong> for donor/receiver modules and secure authentication using <strong>JWT</strong> and <strong>bcrypt</strong>. 
+          Designed schemas with <strong>Mongoose</strong> for handling blood requests, hospital inventory updates, and secure document uploads using GridFS. 
+          Integrated real-time donor alerting within a 10 km radius using the Haversine formula and geolocation API.
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-700 border-b-2 border-gray-300 pb-2 mb-4 uppercase tracking-widest">
+        Key Skills
+      </h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li><strong>Programming Languages:</strong> Java, C, C++ (Basics), Python (Basics)</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React.js, Tailwind CSS</li>
+        <li><strong>Backend:</strong> Node.js, Express.js</li>
+        <li><strong>Database:</strong> MongoDB, MySQL</li>
+        <li><strong>Tools & IDEs:</strong> Visual Studio Code, GitHub, Postman</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-gray-700 border-b-2 border-gray-300 pb-2 mb-4 uppercase tracking-widest">
+        Languages
+      </h2>
+      <p class="text-gray-700 leading-relaxed">
+        <strong>Tamil:</strong> Fluent<br/>
+        <strong>English:</strong> Moderate Proficiency
+      </p>
+    </section>
+
+  </main>
+
 </body>
 </html>
